@@ -1,0 +1,4 @@
+
+T1: I first applied white correction on an image captured by Specim scanner and Specim IQ. No dark correction was applied in specim IQ. The correction was done using the left and right white samples present within the image for another time. To evaluate the correction, I plotted the spectra of the green, red, and blue channels of the corrected image.
+
+T2: I read the Colorchecker 2 lamps data from a Nuance camera, built an ENVI spectral cube from the data and saved it as an ENVI file with a corresponding header file. I then applied white correction to the Nuance ENVI file. To compare the results, I also applied the same white correction to an ENVI file from a Specim IQ camera and plotted the red, green, and blue spectra from both cameras. This allowed me to compare the effect of the white correction on the spectral data of both cameras.
